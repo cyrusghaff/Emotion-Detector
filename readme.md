@@ -1,6 +1,6 @@
-# Project Name
+# Emotion Detector
 
- Add short description of project here > 
+My project sends an output to the user that says what emotion they are feeling. It can detect if the user is happy, sad, angry, surprised, fearful, neutral, or disgusted. 
 
 ![add image descrition here](direct image link here)
 
