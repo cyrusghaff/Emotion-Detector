@@ -10,7 +10,14 @@ I trained my model using a dataset that I found online. It cointainted the seven
 
 ## Running this project
 
-1. Before running the project cd into jetson-inference/python/training/classification.
-2. Make sure to include any required libraries that need to be installed for your project to run.
+1. Make sure that you are in visual studio code and are inside the nano.
+2. Cd into jetson-inference/python/training/classification.
+3. Create a folder called data.
+4. Extract the 
+5. Add the models folder from GitHub.
+6. Go back into the classification directory
+7. Type: NET = models/emotions
+8. Type: DATASET = data/emotions
+9. Type: 
 
 [View a video explanation here](video link)
