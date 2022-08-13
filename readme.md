@@ -21,4 +21,4 @@ I trained my model using a dataset that I found online. It cointainted the seven
 imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt input_image output_image
 ``` 
 8. Substitue input_image and output_image in reference to the input image and output image you want to proccess
-[View a video explanation here](video link)
+[Video Explanation](https://youtu.be/RVLGofbeyD0)
