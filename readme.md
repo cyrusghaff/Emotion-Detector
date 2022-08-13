@@ -10,14 +10,15 @@ I trained my model using a dataset that I found online. It cointainted the seven
 
 ## Running this project
 
-1. Make sure that you are in visual studio code and are inside the nano.
-2. Cd into jetson-inference/python/training/classification.
-3. Create a folder called data.
-4. Extract the 
-5. Add the models folder from GitHub.
-6. Go back into the classification directory
-7. Type: NET = models/emotions
-8. Type: DATASET = data/emotions
-9. Type: 
-
+1. Download and setup the Nvidia Jetson-Inference Project linked [here](https://github.com/dusty-nv/jetson-inference) 
+2. Make sure that you are in [Visual Studio Code](https://code.visualstudio.com/) and are connected to the nano via ssh
+3. Cd into jetson-inference/python/training/classification
+4. Clone this repository
+5. Setup an environment variable NET = Emotion-Detector/emotions_model
+6. Setup an environment variable DATASET = Emotion-Detector/emotions_training_data
+7. Run the jetson-inference imagenet.py using the command below:
+```
+imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt input_image output_image
+``` 
+8. Substitue input_image and output_image in reference to the input image and output image you want to proccess
 [View a video explanation here](video link)
